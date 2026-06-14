@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "651173719962",
+    "project_id": "dfakeguard",
+    "storage_bucket": "dfakeguard.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651173719962:android:3e7ae5d4196327b4b29423",
+        "android_client_info": {
+          "package_name": "com.example.dfakeguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEKK2K-lSgIVMZeQMgzLtAihQIc9KgAy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

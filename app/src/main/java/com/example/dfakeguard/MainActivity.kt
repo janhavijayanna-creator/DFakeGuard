@@ -11,10 +11,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.dfakeguard.ui.theme.DFAKEGUARDTheme
+import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val auth = FirebaseAuth.getInstance()
+
+        if (auth.currentUser != null) {
+            // User already logged in
+        }
         enableEdgeToEdge()
 
         setContent {
